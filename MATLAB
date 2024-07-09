@@ -1,0 +1,15 @@
+% MATRIX PRACTICE - Introduction to Engineering Analysis                                                                Stanford, CA - 07/08/2024
+
+a11p1 + a12p2 + a13p3 == b1
+a21p1 + a22p2 + a23p3 == b2
+a31p1 + a32p2 + a33p3 == b3
+
+[A][P] = [B]
+
+A = [a11 a22 a13; a21 a22 a23; a31 a32 a33]
+   
+P = [p1 p2 p3]'
+
+B = [b1 b2 b3]'
+
+P = B\A
